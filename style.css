@@ -1,0 +1,73 @@
+/* Reset básico para o layout */
+body, h1, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Recuo nos parágrafos */
+p {
+    text-indent: 2em;
+}
+
+/* Estilo das listas ordenadas com bolinhas brancas */
+ol {
+    list-style: circle;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+/* CSS para animações */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
+/* CSS para menu fixo */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    color: #fff;
+}
